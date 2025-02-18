@@ -5,18 +5,23 @@
  *
  * Description: Print to ouput:
  *
- * the alphabet in lowercase
+ * the alphabet in lowercase and uppercase
  *
  * Return: always 0 (success)
  */
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int i;
+	int j;
 
-	for (i = 97; i <= 122; i++)
+	for (i = 97; i < 123; i++)
 	{
-		putchar(a);
+		putchar(i);
+	}
+
+	for (j = 65; j < 91; j++)
+	{
+		putchar(j);
 	}
 	putchar('\n');
 	return (0);
