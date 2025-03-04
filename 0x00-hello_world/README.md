@@ -25,3 +25,9 @@ All of the following files are scripts and programs written in C:
 | Filename | Description |
 |----------|-------------|
 | [`0-preprocessor`](0-preprocessor) | |
+| [`1-compiler`](1-compiler) | |
+| [`2-assembler`](2-assembler) | |
+| [`3-name`](3-name) | |
+| [`4-puts.c`](4-puts.c) | |
+| [`5-printf.c`](5-printf.c) | |
+| [`6-size.c`](6-size.c) | |
