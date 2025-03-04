@@ -2,6 +2,7 @@
 
 This project tests your knowledge and understanding of entry points, basic commands (puts, printf, putchar) and the compilation process with gcc in the C language.
 
+
 ## 📚 Learning Objectives:
 ```md
 # Topics:
