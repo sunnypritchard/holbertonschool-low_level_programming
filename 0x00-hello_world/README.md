@@ -1,6 +1,10 @@
 # Hello, World
 
-This project tests your knowledge and understanding of entry points, basic commands (puts, printf, putchar) and the compilation process with gcc in the C language.
+This project tests your knowledge and understanding of the following concepts:
+
+- Entry point (C main function)
+- Basics C library functions (puts, putchar, printf)
+- Compilation process and gcc compiler
 
 
 ## 📚 Learning Objectives:

@@ -1,27 +1,28 @@
 #include <stdio.h>
 /**
- * main - entry point for function
+ * main - entry point
  * @void: no paramater
  *
- * Description: Print to ouput:
+ * Description: Print to stdout:
  *
- * the alphabet in lowercase and uppercase
+ * all the alphabet in lowercase
+ * and uppercase, followed by a new line.
  *
  * Return: always 0 (success)
  */
 int main(void)
 {
-	int i;
-	int j;
+	char a_z;
+	char A_Z;
 
-	for (i = 97; i < 123; i++)
+	for (a_z = 'a'; a_z <= 'z'; a_z++)
 	{
-		putchar(i);
+		putchar(a_z);
 	}
 
-	for (j = 65; j < 91; j++)
+	for (A_Z = 'A'; A_Z <= 'Z'; A_Z++)
 	{
-		putchar(j);
+		putchar(A_Z);
 	}
 	putchar('\n');
 	return (0);

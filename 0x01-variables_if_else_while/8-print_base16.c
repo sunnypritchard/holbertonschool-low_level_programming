@@ -1,27 +1,29 @@
 #include <stdio.h>
 /**
- * main - entry point for function
+ * main - entry point
  * @void: no paramater
  *
- * Description: Print to ouput:
+ * Description: Print to stdout:
  *
- * All the numbers of base 16 in lowercase, followed by new line.
+ * all numbers of base 16, 
+ * followed by a new line
  *
  * Return: always 0 (success)
  */
 int main(void)
 {
-	int i;
-	int j;
+    int n;
+    char c;
 
-	for (i = 0; i < 10; i++)
-	{
-		putchar(i + '0');
-	}
-	for (j = 'a'; j <= 'f'; j++)
-	{
-		putchar(j);
-	}
-	putchar('\n');
-	return (0);
+    for (n = 0; n <= 9; n++)
+    {
+        putchar(n + '0');
+    }
+
+    for (c = 'a'; c <= 'f'; c++)
+    {
+        putchar(c);
+    }
+    putchar('\n');
+    return (0);
 }

@@ -1,23 +1,23 @@
 #include <stdio.h>
 /**
- * main - entry point for function
+ * main - entry point
  * @void: no paramater
  *
- * Description: Print to ouput:
+ * Description: Print to stdout:
  *
- * the alphabet in lowercase
+ * all the alphabet in lowercase
+ * followed by a new line.
  *
  * Return: always 0 (success)
  */
-/* betty style doc for function main goes there */
 int main(void)
 {
-	int i;
+    char a_z;
 
-	for (i = 97; i <= 122; i++)
-	{
-		putchar(a);
-	}
-	putchar('\n');
-	return (0);
+    for (a_z = 'a'; a_z <= 'z'; a_z++)
+    {
+        putchar(a_z);
+    }
+    putchar('\n');
+    return (0);
 }

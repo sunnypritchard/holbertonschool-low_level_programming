@@ -1,28 +1,29 @@
 #include <stdio.h>
 /**
- * main - entry point for function
+ * main - entry point
  * @void: no paramater
  *
- * Description: Print to ouput:
+ * Description: Print to stdout:
  *
- * All posible combination of a single-digit numbers.
- * The number is seperated by ',', followed by space.
+ * prints all possible combinations of single-digit numbers
+ * separated by `,` followed by a space
  *
  * Return: always 0 (success)
  */
-int main(void)
+int main()
 {
-	int i;
+    int n;
 
-	for (i = 0; i < 10; i++)
-	{
-		putchar(i + '0');
-		if (i != 9)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-	}
-	putchar('\n');
-	return (0);
+    for (n = 0; n <= 9; n++)
+    {
+        putchar(n + '0');
+
+        if (n != 9)
+        {
+            putchar(',');
+            putchar(' ');
+        }
+    }
+    putchar('\n');
+    return (0);
 }

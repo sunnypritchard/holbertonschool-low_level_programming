@@ -5,8 +5,8 @@
  *
  * Description: Print to stdout:
  *
- * all lowercase alphabet in reverse,
- * followed by a new line.
+ * all the alphabet in lowercase
+ * except 'q' and 'e', followed by a new line.
  *
  * Return: always 0 (success)
  */
@@ -14,9 +14,12 @@ int main(void)
 {
     char a_z;
 
-    for (a_z = 'z'; a_z >= 'a'; a_z--)
+    for (a_z = 'a'; a_z <= 'z'; a_z++)
     {
-        putchar(a_z);
+        if (a_z != 'q' && a_z != 'e')
+        {
+            putchar(a_z);
+        }
     }
     putchar('\n');
     return (0);
