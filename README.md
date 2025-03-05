@@ -12,7 +12,7 @@ All of the following folders are projects done using **The C programming languag
 
 | Project name | Outcome |
 |--------------|---------|
-| [`0x00-hello_world`](/0x00-hello_world/) | entry point, compilation with gcc |
+| [`0x00-hello_world`](/0x00-hello_world/) | entry point (C main function), compilation with gcc and bascics C liberary functions (`puts, printf, putchar`) |
 | [`0x01-variables_if_else_while`](/0x01-variables_if_else_while/) | arithmetic operators, variables loops | 
 
 
