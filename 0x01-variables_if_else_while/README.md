@@ -38,7 +38,7 @@ All of the following files are programs written in C:
 | [`1-last_digit.c`](1-last_digit.c) | Prints the last digit of a randomly generated number |
 | [`2-print_alphabet.c`](2-print_alphabet.c) | Prints the alphabet in lowercase |
 | [`3-print_alphabets.c`](3-print_alphabets.c) | Prints the alphabet in lowercase, and then in uppercase |
-| [`4-print_alphabet.c](4-print_alphabet.c) | Prints the alphabet in lowercase, except q and e letters |
+| [`4-print_alphabet.c`](4-print_alphabet.c) | Prints the alphabet in lowercase, except q and e letters |
 | [`5-print_numbers.c`](5-print_numbers.c) | Prints all single digit numbers of base 10 starting from 0|
 | [`6-print_numberz.c`](6-print_numberz.c) | Prints all single digit numbers of base 10 starting from 0, without using char variables|
 | [`7-print_tebahpla.c`](7-print_tebahpla.c) | Prints the lowercase alphabet in reverse|
