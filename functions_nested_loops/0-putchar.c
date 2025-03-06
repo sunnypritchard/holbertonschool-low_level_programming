@@ -3,20 +3,21 @@
  * main - print _putchar
  * @void: no paramater
  *
- * Description: Print to ouput '_putchar':
+ * Description: Print to stdout:
  *
- * Prints '_putchar', followed by a new line.
+ * the string '_putchar', followed by a new line.
  *
  * Return: always 0 (success)
  */
 int main(void)
 {
-	char str_putchar[] = "_putchar\n";
-	int i;
+    int i;
+    char str[] = "_putchar";
 
-	for (i = 0; str_putchar[i] != '\0'; i++)
-	{
-		_putchar(str_putchar[i]);
-	}
-	return (0);
+    for (i = 0; str[i] != '\0'; i++)
+    {
+        _putchar(str[i]);
+    }
+    _putchar('\n');
+    return (0);
 }

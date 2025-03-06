@@ -1,9 +1,14 @@
 #include "main.h"
-
 /**
- * jack_bauer - prints 00:00 - 23:59
+ * jack_bauer - print _putchar
+ * @void: no paramater
  *
- * Return: void (always)
+ * Description: Print to stdout:
+ *
+ * prints every minute of the day of Jack Bauer,
+ * starting from 00:00 to 23:59..
+ *
+ * Return: void (nothing)
  */
 void jack_bauer(void)
 {

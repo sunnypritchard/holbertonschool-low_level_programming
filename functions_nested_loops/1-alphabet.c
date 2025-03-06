@@ -1,21 +1,28 @@
 #include "main.h"
 /**
- * print_alphabet - print lowercase alphabet
+ * print_alphabet - prints alphabet
  * @void: no paramater
  *
- * Description: Print to output:
+ * Description: Print to stdout:
  *
- * Prints the alphabet, in lowercase, followed by a new line.
+ * The alphabet, in lowercase,
+ * followed by a new line.
  *
- * Return: always 0 (success)
+ * Return: void (nothing)
  */
 void print_alphabet(void)
 {
-	int i;
+    char a_z;
 
-	for (i = 'a'; i <= 'z'; i++)
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
+    for (a_z = 'a'; a_z <= 'z'; a_z++)
+    {
+        _putchar(a_z);
+    }
+    _putchar('\n');
+}
+
+ int main(void)
+{
+    print_alphabet();
+    return (0);
 }
