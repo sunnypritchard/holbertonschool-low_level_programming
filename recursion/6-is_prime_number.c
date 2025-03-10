@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * icheck_prime - check for prime n recursive
+ * check_prime - check for prime n recursive
  * @n:  int number
  * @divider: int divider
  *
