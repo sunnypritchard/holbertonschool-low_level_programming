@@ -13,8 +13,8 @@
 int main(int argc, char *argv[])
 {
 	int i, j, sum;
-	sum = 0;
 
+	sum = 0;
 	/* If no arguments are passed */
 	if (argc == 1)
 	{
@@ -31,10 +31,10 @@ int main(int argc, char *argv[])
 				printf("Error\n");
 				return (1);
 			}
-			
 		}
 		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	return (0);
 }
+
