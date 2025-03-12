@@ -20,9 +20,7 @@ char *_strdup(char *str)
 
 	/* Calculate the lenght */
 	while (str[length] != '\0')
-	{
 		length++;
-	}
 
 	/* Allocate memory */
 	ptr_str = malloc((length + 1) * sizeof(char));
