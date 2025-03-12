@@ -8,14 +8,14 @@
  * Return: pointer to concat string
  */
 
- char *str_concat(char *s1, char *s2)
- {
+char *str_concat(char *s1, char *s2)
+{
 	char *ptr_strcat;
 	int i, len_s1, len_s2;
 
 	len_s1 = 0;
 	len_s2 = 0;
-	
+
 	/* Check for NULL input */
 	if (s1 == NULL)
 		s1 = "";
@@ -31,7 +31,7 @@
 	/* Allocate memory */
 	ptr_strcat = malloc(len_s1 + len_s2 + 1);
 	if (ptr_strcat == NULL)
-		return NULL;
+		return (NULL);
 
 	/* Concatenate str */
 	for (i = 0; i < len_s1; i++)
@@ -42,6 +42,4 @@
 	ptr_strcat[len_s1 + len_s2] = '\0';
 
 	return (ptr_strcat);
-
-	
- }
+}
