@@ -29,7 +29,7 @@ All of the following files are scripts and programs written in C:
 
 | Filename | Description |
 |----------|-------------|
-| [`0-preprocessor`](0-preprocessor) | Bash script, runs a C file through the preprocessor and saves the result into another file |
+| [`0-preprocessor`](0-preprocessor) | Write a script that runs a C file through the preprocessor and save the result into another file |
 | [`1-compiler`](1-compiler) | Bash script, compiles a C file but does not link |
 | [`2-assembler`](2-assembler) | Bash script, generates the assembly code of a C code and saves it in an output file |
 | [`3-name`](3-name) | Bash script, compiles a C file and creates an executable named `cisfun` |
