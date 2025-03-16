@@ -1,6 +1,5 @@
 #include "dog.h"
 
-
 /**
  * _strlen - return the lenght of a string
  * @s: pointer to the string length to be returned
@@ -8,6 +7,7 @@
  *
  * Return: string length
  */
+
 
 int _strlen(char *s)
 {
@@ -85,11 +85,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 	new_dog->age = age;
 	if (new_dog->age < 0)
 	{
-	    free(new_dog->owner);
-	    free(new_dog->name);
-	    free(new_dog);
-	    return (NULL);
+		free(new_dog->owner);
+		free(new_dog->name);
+		free(new_dog);
+		return (NULL);
 	}
-	
+
 	return (new_dog);
 }
