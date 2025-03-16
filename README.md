@@ -1,11 +1,11 @@
 # Low Level Programming & Algorithms
 
 ## About
-This repository contains the **Low-Level Programming** track at **[Holberton School](https://www.holbertonschool.fr/)**. Here, I will be documenting my experience and knowledge of low-level programing with the **C Programming Language** through a series of projects in a project-based learning environment.
+This repository contains the **Low-Level Programming** track at **[Holberton School](https://www.holbertonschool.fr/)**. Here, I will be documenting my experience and knowledge of low-level programing with the **C Programming Language** through a series of projects.
 
 ## Projects
 
-All of the following folders are projects done **C programming language** during my studies:
+All of the following folders are projects done in the **C programming language** during my studies:
 
 | Project name | Outcome |
 |--------------|---------|
