@@ -5,6 +5,8 @@
  * @array: The array of integers.
  * @size: The size of the array.
  * @action: A function pointer to execute on each array element.
+ * 
+ * Return: void (empty)
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
