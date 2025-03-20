@@ -9,12 +9,12 @@
  * and prints them, separated by the given separator string. If the separator
  * is NULL, it is not printed. If any string is NULL, "(nil)" is printed
  * in its place. A new line is printed at the end.
- * 
+ *
  * Return: None.
  */
 
- void print_strings(const char *separator, const unsigned int n, ...)
- {
+void print_strings(const char *separator, const unsigned int n, ...)
+{
 	va_list args;
 	unsigned int i;
 	char *str;
@@ -41,5 +41,5 @@
 	}
 	va_end(args);
 	printf("\n");
- }
+}
 
