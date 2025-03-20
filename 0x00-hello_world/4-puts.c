@@ -1,14 +1,16 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
- * @void: no paramater
+ * @void: No parameters
  *
- * Description: Uses puts to output
- *
- * "Programming is like building a multilingual puzzle
+ * Description: Prints a string using the puts function.
+ *              Outputs the message "Programming is like building a multilingual puzzle"
+ *              to the standard output.
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");

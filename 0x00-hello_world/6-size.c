@@ -1,13 +1,16 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
- * @void: no paramater
+ * @void: No parameters
  *
- * Description: Use printf to the size of data types
- *
+ * Description: Prints the sizes of various data types using the printf function.
+ *              Outputs the size of a char, int, long int, long long int, and float 
+ *              in bytes to the standard output.
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
