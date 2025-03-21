@@ -1,25 +1,28 @@
 #include "main.h"
 
 /**
- * more_numbers - Prints x10 the numbers, from 0..14
- * @void: no parameter
+ * more_numbers - Prints numbers from 0 to 14, ten times.
+ * @void: No parameters
+ * 
+ * Description: This function prints the numbers from 0 to 14,
+ *              ten times, with each set printed on a new line.
  *
- *
- * Return: void (empty)
+ * Return: void (no return value).
  */
+
 void more_numbers(void)
 {
-	int n, j;
+	int row, num;
 
-	for (n = 0; n < 10; n++)
+	for (row = 0; row < 10; row++)
 	{
-		for (j = 0; j <= 14; j++)
+		for (num = 0; num <= 14; num++)
 		{
-			if (j > 9)
+			if (num > 9)
 			{
-				_putchar((j / 10) + '0');
+				_putchar((num / 10) + '0');
 			}
-			_putchar((j % 10) + '0');
+			_putchar((num % 10) + '0');
 		}
 		_putchar('\n');
 	}

@@ -1,12 +1,15 @@
 #include "main.h"
 
 /**
- * print_most_numbers - prints numbers, from 0..9 followed by a new line.
- * @void: no parameter
+ * print_most_numbers - Prints the numbers from 0 to 9, except 2 and 4.
+ * @void: No parameters
+ * 
+ * Description: This function prints all single-digit numbers
+ *              from 0 to 9, except for 2 and 4, followed by a newline.
  *
- *
- * Return: void (empty)
+ * Return: void (no return value).
  */
+
 void print_most_numbers(void)
 {
 	int i;
