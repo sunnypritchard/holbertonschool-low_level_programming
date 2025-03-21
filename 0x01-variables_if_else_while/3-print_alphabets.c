@@ -1,28 +1,28 @@
 #include <stdio.h>
+
 /**
- * main - entry point
- * @void: no paramater
+ * main - Entry point
+ * @void: No parameters
+ * 
+ * Description: Prints all the alphabet letters in lowercase followed by uppercase,
+ *              followed by a newline.
  *
- * Description: Print to stdout:
- *
- * all the alphabet in lowercase
- * and uppercase, followed by a new line.
- *
- * Return: always 0 (success)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char a_z;
-	char A_Z;
+	char lowercase_letters;
+	char uppercase_letters;
 
-	for (a_z = 'a'; a_z <= 'z'; a_z++)
+	for (lowercase_letters = 'a'; lowercase_letters <= 'z'; lowercase_letters++)
 	{
-		putchar(a_z);
+		putchar(lowercase_letters);
 	}
 
-	for (A_Z = 'A'; A_Z <= 'Z'; A_Z++)
+	for (uppercase_letters = 'A'; uppercase_letters <= 'Z'; uppercase_letters++)
 	{
-		putchar(A_Z);
+		putchar(uppercase_letters);
 	}
 	putchar('\n');
 	return (0);

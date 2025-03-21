@@ -1,22 +1,22 @@
 #include <stdio.h>
+
 /**
- * main - entry point
- * @void: no paramater
+ * main - Entry point
+ * @void: No parameters
+ * 
+ * Description: Prints all the alphabet letters in lowercase in reverse order,
+ *              followed by a newline.
  *
- * Description: Print to stdout:
- *
- * all lowercase alphabet in reverse,
- * followed by a new line.
- *
- * Return: always 0 (success)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-    char a_z;
+    char lowercase_letters;
 
-    for (a_z = 'z'; a_z >= 'a'; a_z--)
+    for (lowercase_letters = 'z'; lowercase_letters >= 'a'; lowercase_letters--)
     {
-        putchar(a_z);
+        putchar(lowercase_letters);
     }
     putchar('\n');
     return (0);

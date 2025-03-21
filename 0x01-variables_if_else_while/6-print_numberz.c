@@ -1,15 +1,15 @@
 #include <stdio.h>
+
 /**
- * main - entry point 
- * @void: no paramater
+ * main - Entry point
+ * @void: No parameters
+ * 
+ * Description: Prints all single-digit numbers of base 10 starting from 0,
+ *              followed by a newline, using putchar.
  *
- * Description: Print to ouput:
- *
- * All single digit numbers of the base 10 starting from 0
- * using the function putchar, and ASCII.
- *
- * Return: always 0 (success)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
     int n;

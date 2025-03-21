@@ -1,18 +1,18 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+
 /**
- * main - entry point for function
- * @void: no paramater
+ * main - Entry point
+ *  @void: No parameters
  *
- * Description: Print out the last digt:
+ * Description: Generates a random number and checks the last digit of the number.
+ *              It prints whether the last digit is greater than 5, less than 6 but not 0,
+ *              or equal to 0.
  *
- * check if the n last digit is > 5, < 6 and != 0
- * and print the corresponding string
- *
- * Return: always 0 (success)
+ * Return: Always 0 (Success)
  */
-/* betty style doc for function main goes there */
+
 int main(void)
 {
 	int n, last_digit;

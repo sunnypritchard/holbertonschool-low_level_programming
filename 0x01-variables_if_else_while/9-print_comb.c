@@ -1,24 +1,24 @@
 #include <stdio.h>
+
 /**
- * main - entry point
- * @void: no paramater
+ * main - Entry point
+ * @void: No parameters
+ * 
+ * Description: Prints all single-digit numbers of base 10 separated by commas
+ *              and spaces, followed by a newline.
  *
- * Description: Print to stdout:
- *
- * prints all possible combinations of single-digit numbers
- * separated by `,` followed by a space
- *
- * Return: always 0 (success)
+ * Return: Always 0 (Success)
  */
+
 int main()
 {
-    int n;
+    int single_digit;
 
-    for (n = 0; n <= 9; n++)
+    for (single_digit = 0; single_digit <= 9; single_digit++)
     {
-        putchar(n + '0');
+        putchar(single_digit + '0');
 
-        if (n != 9)
+        if (single_digit != 9)
         {
             putchar(',');
             putchar(' ');
