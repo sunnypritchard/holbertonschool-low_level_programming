@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *@void: No parameters
+ * @void: No parameters
 
  * Description: Prints all the alphabet letters in lowercase followed by a newline.
  *

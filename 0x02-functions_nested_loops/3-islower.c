@@ -1,35 +1,21 @@
 #include "main.h"
+
 /**
- * _islower - prints alphabet
- * @c: int c
+ * _islower - Checks if a character is a lowercase letter.
+ * @c: The character to check.
  *
- * Description: Print to stdout:
+ * Description: This function takes an integer representing an ASCII character
+ *              and returns 1 if the character is a lowercase letter (a-z),
+ *              otherwise returns 0.
  *
- * checks for lowercase character
- * Returns `1` if `c` is lowercase, 
- * returns `0` otherwise
- *
- * Return: 1 or 0 
+ * Return: 1 if c is lowercase, 0 otherwise.
  */
+
 int _islower(int c)
 {
-    if (c >= 'a' && c <= 'z')
-    {
-        return (1);
-    }
-    return (0);
-}
-
-int main(void)
-{
-    int r;
-
-    r = _islower('H');
-    _putchar(r + '0');
-    r = _islower('o');
-    _putchar(r + '0');
-    r = _islower(108);
-    _putchar(r + '0');
-    _putchar('\n');
-    return (0);
+	if (c >= 'a' && c <= 'z')
+	{
+		return (1);
+	}
+	return (0);
 }

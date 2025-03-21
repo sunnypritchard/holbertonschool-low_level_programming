@@ -4,10 +4,10 @@
 
 /**
  * main - Entry point
- *  @void: No parameters
+ * @void: No parameters
  *
  * Description: Generates a random number and checks the last digit of the number.
- *              It prints whether the last digit is greater than 5, less than 6 but not 0,
+ *              Prints whether the last digit is greater than 5, less than 6 but not 0,
  *              or equal to 0.
  *
  * Return: Always 0 (Success)

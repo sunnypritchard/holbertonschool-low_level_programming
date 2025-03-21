@@ -1,23 +1,16 @@
 #include "main.h"
+
 /**
- * add -  adds two integers and returns the result.
- * @num1: int num1
- * @num2: int num2
+ * add - Adds two integers.
+ * @num1: The first integer.
+ * @num2: The second integer.
  *
- * Description: adds two integers and returns the result.
+ * Description: This function adds two integers and returns the result.
  *
- * Return: sum of two integers.
+ * Return: The sum of num1 and num2.
  */
+
 int add(int num1, int num2)
 {
 	return ((num1 + num2));
-}
-
-int main(void)
-{
-	int n;
-
-	n = add(89, 9);
-	printf("%d\n", n);
-	return (0);
 }

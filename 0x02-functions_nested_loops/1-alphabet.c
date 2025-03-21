@@ -1,28 +1,22 @@
 #include "main.h"
+
 /**
- * print_alphabet - prints alphabet
- * @void: no paramater
+ * print_alphabet - Prints the alphabet in lowercase, followed by a newline.
+ * @void: No parameters
  *
- * Description: Print to stdout:
+ * Description: This function uses the custom _putchar function to print
+ *              all lowercase letters from 'a' to 'z', followed by a newline.
  *
- * The alphabet, in lowercase,
- * followed by a new line.
- *
- * Return: void (nothing)
+ * Return: void (no return value).
  */
+
 void print_alphabet(void)
 {
-    char a_z;
+	char lowercase_letters;
 
-    for (a_z = 'a'; a_z <= 'z'; a_z++)
-    {
-        _putchar(a_z);
-    }
-    _putchar('\n');
-}
-
- int main(void)
-{
-    print_alphabet();
-    return (0);
+	for (lowercase_letters = 'a'; lowercase_letters <= 'z'; lowercase_letters++)
+	{
+		_putchar(lowercase_letters);
+	}
+	_putchar('\n');
 }

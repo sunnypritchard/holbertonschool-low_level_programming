@@ -1,15 +1,15 @@
 #include "main.h"
+
 /**
- * jack_bauer - print _putchar
- * @void: no paramater
+ * jack_bauer - Prints every minute of the day of Jack Bauer.
  *
- * Description: Print to stdout:
+ * Description: This function prints the time in HH:MM format
+ *              for every minute from 00:00 to 23:59.
+ *              The function uses _putchar to display the output.
  *
- * prints every minute of the day of Jack Bauer,
- * starting from 00:00 to 23:59..
- *
- * Return: void (nothing)
+ * Return: void (no return value).
  */
+
 void jack_bauer(void)
 {
 	int hour, minute;

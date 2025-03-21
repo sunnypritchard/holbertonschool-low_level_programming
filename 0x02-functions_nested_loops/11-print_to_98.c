@@ -1,16 +1,17 @@
 #include "main.h"
+
 /**
- * print_to_98 -  prints all natural numbers from n to 98
- * @n: int n
+ * print_to_98 - Prints all numbers from a given number to 98.
+ * @n: The starting number.
  *
- * Description: Print to stdout:
+ * Description: This function prints all the numbers from `n` to 98, 
+ *              in ascending order if `n` is less than or equal to 98,
+ *              and in descending order if `n` is greater than 98.
+ *              Each number is separated by a comma and a space.
  *
- * prints all natural numbers from n to 98,
- * followed by a new line.
- *
- *
- * Return:  void (nothing).
+ * Return: void (no return value).
  */
+
 void print_to_98(int n)
 {
 	int i;
@@ -38,14 +39,4 @@ void print_to_98(int n)
 		}
 	}
 	printf("\n");
-}
-
-int main(void)
-{
-	print_to_98(0);
-	print_to_98(98);
-	print_to_98(111);
-	print_to_98(81);
-	print_to_98(-10);
-	return (0);
 }

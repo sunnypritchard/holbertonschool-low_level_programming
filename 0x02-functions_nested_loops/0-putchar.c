@@ -1,23 +1,23 @@
 #include "main.h"
+
 /**
- * main - print _putchar
- * @void: no paramater
+ * main - Entry point
+ * @void: No parameters
  *
- * Description: Print to stdout:
+ * Description: Prints "_putchar" followed by a newline using the _putchar function.
  *
- * the string '_putchar', followed by a new line.
- *
- * Return: always 0 (success)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-    int i;
-    char str[] = "_putchar";
+	int i;
+	char str_putchar[] = "_putchar";
 
-    for (i = 0; str[i] != '\0'; i++)
-    {
-        _putchar(str[i]);
-    }
-    _putchar('\n');
-    return (0);
+	for (i = 0; str_putchar[i] != '\0'; i++)
+	{
+		_putchar(str_putchar[i]);
+	}
+		_putchar('\n');
+	return (0);
 }

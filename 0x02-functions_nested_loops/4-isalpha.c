@@ -1,37 +1,21 @@
 #include "main.h"
+
 /**
- * _isalpha - prints alphabet
- * @c: int c
+ * _isalpha - Checks if a character is an alphabetic letter.
+ * @c: The character to check.
  *
- * Description: Print to stdout:
+ * Description: This function takes an integer representing an ASCII character
+ *              and returns 1 if the character is a letter (either lowercase or uppercase),
+ *              otherwise returns 0.
  *
- * checks for lowercase character
- * Returns `1` if `c` is lowercase or uppercase, 
- * returns `0` otherwise
- *
- * Return: 1 or 0 
+ * Return: 1 if c is a letter, 0 otherwise.
  */
+
 int _isalpha(int c)
 {
-    if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-    {
-        return (1);
-    }
-    return (0);
-}
-
-int main(void)
-{
-    int r;
-
-    r = _isalpha('H');
-    _putchar(r + '0');
-    r = _isalpha('o');
-    _putchar(r + '0');
-    r = _isalpha(108);
-    _putchar(r + '0');
-    r = _isalpha(';');
-    _putchar(r + '0');
-    _putchar('\n');
-    return (0);
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	{
+		return (1);
+	}
+	return (0);
 }

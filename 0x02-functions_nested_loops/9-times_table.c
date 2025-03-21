@@ -1,14 +1,15 @@
 #include "main.h"
+
 /**
- * times_table - prints the 9 times table, starting with 0.
- * @void: no paramater
+ * times_table - Prints the 9 times table starting from 0.
  *
- * Description: Print to stdout:
+ * Description: This function prints the multiplication table from 0 to 9
+ *              in a 10x10 grid format. The values are separated by commas
+ *              and spaces, with each row ending in a new line.
  *
- * prints the 9 times table, starting with 0.
- *
- * Return: void (nothing)
+ * Return: void (no return value).
  */
+
 void times_table(void)
 {
 	int rows = 10;
@@ -46,9 +47,3 @@ void times_table(void)
 		_putchar('\n');
 	}
 }
-
-int main(void)
- {
-	times_table();
-	return (0);
- }
