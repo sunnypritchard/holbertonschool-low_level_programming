@@ -1,0 +1,20 @@
+# Ignore object files and executables
+*.o
+*.out
+*.exe
+
+# Ignore backup and temporary files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Ignore compiled libraries
+*.a
+*.so
+
+# Ignore directories created by version control systems
+.git/
+
+# Ignore vscode workspace settings
+.vscode/
