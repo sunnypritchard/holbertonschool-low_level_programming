@@ -1,12 +1,21 @@
-# Ignore Emacs buffer files
+# Ignore object files and executables
+*.o
+*.out
+*.exe
+
+# Ignore backup and temporary files
 *~
 *#
+*.swp
+*.bak
+*.tmp
 
-# Ignore object files
-*.o
+# Ignore compiled libraries
+*.a
+*.so
 
-# Ignore main files
-*-main.c
+# Ignore directories created by version control systems
+.git/
 
-# Ignore executable files
-*.out
+# Ignore vscode workspace settings
+.vscode/
