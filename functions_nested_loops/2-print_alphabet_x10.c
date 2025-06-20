@@ -7,6 +7,7 @@
  * Each alphabet line is followed by a newline character.
  * The _putchar function is used to print each character.
  */
+
 void print_alphabet_x10(void)
 {
 	char lowercase_letter;
