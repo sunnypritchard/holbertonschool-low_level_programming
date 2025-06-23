@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * jack_bauer - Prints every minute of the day of Jack Bauer,
+ *              from 00:00 to 23:59.
+ *
+ * Description: This function uses nested loops to iterate through
+ * all the possible hours and minutes in a 24-hour day and prints
+ * them in HH:MM format, followed by a newline.
+ */
 void jack_bauer(void)
 {
 	int hour, min;
