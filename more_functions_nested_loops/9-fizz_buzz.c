@@ -13,23 +13,18 @@
 
 int main(void)
 {
-	int n;
+	int i;
 
-	for (n = 1; n <= 100; n++)
+	for (i = 1; i <= 100; i++)
 	{
-		if ((n % 3 == 0) && (n % 5 == 0))
-			printf("FizzBuzz");
-		else if (n % 5 == 0)
-			printf("Buzz");
-		else if (n % 3 == 0)
-			printf("Fizz");
+		if ((i % 3 == 0) && (i % 5 == 0))
+			printf("FizzBuzz ");
+		else if (i % 5 == 0)
+			printf("Buzz ");
+		else if (i % 3 == 0)
+			printf("Fizz ");
 		else
-			printf("%d", n);
-	}
-
-	if (n < 100)
-	{
-		printf(" ");
+			printf("%d ", i);
 	}
 	printf("\n");
 
