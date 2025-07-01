@@ -9,25 +9,17 @@
  */
 int _atoi(char *s)
 {
-	int idx;
-	int sign = 1, nb = 0;
+	int sign = 1;
+	unsigned int num = 0;
 
-	for (idx = 0; s[idx] == ' ' || s[idx] == '\t' || s[idx] == '\n'; idx++)
-		;
-
-	for (; s[idx] == '+' || s[idx] == '-'; idx++)
-	{
-		if (s[idx] == '-')
+	do {
+		if (*s == '-')
 			sign *= -1;
-	}
+		else if (*s >= '0' && *s <= '9')
+			num = num * 10 + (*s - '0');
+		else if (num > 0)
+			break;
+	} while (*s++);
 
-	if (s[idx] < '0' || s[idx] > '9')
-	{
-		return (0);
-	}
-
-	for (; s[idx] >= '0' && s[idx] <= '9'; idx++)
-		nb = nb * 10 + (s[idx] - '0');
-
-	return (nb * sign);
+	return (num * sign);
 }
