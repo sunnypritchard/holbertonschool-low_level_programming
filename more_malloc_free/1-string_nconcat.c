@@ -7,7 +7,8 @@
  * @s2: Second string.
  * @n: Number of bytes from s2 to concatenate.
  *
- * Return: Pointer to newly allocated space containing s1 + first n bytes of s2.
+ * Return: Pointer to newly allocated space
+ * containing s1 + first n bytes of s2.
  * If malloc fails, returns NULL.
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -30,23 +31,22 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		len2++;
 
 	/* if n is larger than length of s2, use full s2 */
-       if (n > len2)
-       {
+	if (n > len2)
+	{
 		n = len2;
-       }
+	}
        /* allocate mem for concanated str (+1 for null-terminator) */
-       concat = malloc(sizeof(char) * (len1 + n + 1));
-       if (concat == NULL)
-       {
-	       return (NULL);
-       }
-       
-       for (i = 0; i < len1; i++)
+	concat = malloc(sizeof(char) * (len1 + n + 1));
+	if (concat == NULL)
+	{
+		return (NULL);
+	}
+	for (i = 0; i < len1; i++)
 		concat[i] = s1[i];
-       for (j = 0; j < n; j++)
-	       concat[i + j] = s2[j];
+	for (j = 0; j < n; j++)
+		concat[i + j] = s2[j];
 
-       concat[i + j] = '\0';
+	concat[i + j] = '\0';
 
-       return (concat);
-}		       
+	return (concat);
+}
