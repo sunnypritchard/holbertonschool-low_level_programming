@@ -17,4 +17,6 @@ struct dog
 
 /* initialize struct dog fields */
 void init_dog(struct dog *d, char *name, float age, char *owner);
+/*print struct dog */
+void print_dog(struct dog *d);
 #endif
