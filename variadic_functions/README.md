@@ -13,7 +13,7 @@ Write a function that returns the sum of all its parameters.
 - Prototype: `int sum_them_all(const unsigned int n, ...);`
 - If `n == 0`, return `0`
 
-### Solution: [0-sum_them_all.c](/0-sum_them_all.c)
+### Solution: [0-sum_them_all.c](0-sum_them_all.c)
 
 ```bash
 $ amonkeyprogrammer@ubuntu:~/0x0f. variadic functions$ cat 0-main.c
