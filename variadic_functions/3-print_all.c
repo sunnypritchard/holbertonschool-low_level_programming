@@ -64,23 +64,28 @@ void print_all(const char * const format, ...)
 
 	va_list ap;
 	const char *separator = "";
-	size_t i, j;
+	size_t i = 0;
+	size_t j;
 	size_t n_printers = sizeof(printers) / sizeof(printers[0]);
 
 	va_start(ap, format);
 
-	for (i = 0; format && format[i]; i++)
+	while (format && format[i])
 	{
-		for (j = 0; j < n_printers; j++)
-		{	if (format[i] == printers[j].specifier)
+		j = 0;
+		while (j < n_printers)
+		{
+			if (format[i] == printers[j].specifier)
 			{
 				printers[j].print_func(separator, &ap);
 				separator = ", ";
 				break;
 			}
+			j++;
 		}
+		i++;
 	}
-
+	
 	va_end(ap);
 	printf("\n");
 }
