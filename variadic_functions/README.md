@@ -134,6 +134,8 @@ Write function that prints anything.
 - You are allowed to use `prinft`
 - Print a new line at the end of your function
 
+**Solution:** [3-print_all.c](3-print_all.c)
+
 ```bash
 julien@ubuntu:~/0x0f. Variadic functions$ cat 3-main.c
 #include "variadic_functions.h"
